@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'made tommy';
+  src: url('../fonts/madeTommy.otf');
+}
+
+body{
+  font-family: 'made tommy' !important;
+}
