@@ -21,10 +21,7 @@
 
         <header class="position-fixed" style="z-index: 2000;width: 100%;">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark-overlay">
-            <a class="navbar-brand col-2" href="#"><img src="./img/logo.png" style="width:80%;margin-left: 10%;"/></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand col-2" href="#"><img src="./img/logo.png" style="width:80%;margin-left: 10%;"/></a>            
 
             <div class="collapse navbar-collapse col-4" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto row">
@@ -40,145 +37,264 @@
                   </a>
               </ul>
             </div>
-            <div class="col-2">
+            <div class="col-4  col-md-2">
               <div class="row">
-                <div class="col p-2">
+                <div class="col p-2 pt-3">
                   <i class="fa fa-search text-white"></i>
                 </div>
-                <div class="col p-2">
+                <div class="col p-2 pt-3">
                   <i class="fa fa-user text-white"></i>
                 </div>
                 <div class="col p-2">
-                  <i class="fa fa-shopping-cart text-white"></i>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                 </div>
               </div>
             </div>
           </nav>
         </header>
 
-        <div class="intro-section">
-          <div class="slide-1" style="background-image: url('./img/background.jpeg');background-size: 110%;background-repeat: no-repeat;background-position: top;" data-stellar-background-ratio="0.5">
-            <div class="container-fluid content-data" style="height: 100vh;width:100%;">
-              <div class="row">
-                <div class="col-12 p-5" style="z-index: 1000;">
-                  <h1 class="text-white">Tenemos un universo<br /> de sabores para ti</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="intro-section">
-          <div class="slide-1" style="background-image: url('./img/background-1.jpeg');background-size: 150%;background-repeat: no-repeat;background-position: top;" data-stellar-background-ratio="0.5">
-            <div class="container-fluid content-data" style="width:100%;">
-              <div class="row">
-                <div class="col-8 p-5" style="z-index: 1000;">
-                  <h1 class="text-white">Inicio</h1>
-                  <p style="font-size: 14px ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <p style="font-size: 14px ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="intro-section">
-          <div class="slide-1" style="background-image: url('./img/background-2.jpeg');background-size: 150%;background-repeat: no-repeat;background-position: top;" data-stellar-background-ratio="0.5">
-            <div class="container-fluid content-data" style="width:100%;height: 100vh;">
-              <div class="row">
-                <div class="col-8 p-5" style="z-index: 1000;">
-                  <h1 class="text-white">Nosotros</h1>
-                  <h4 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-                  <p style="font-size: 14px ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="container-fluid">
+          <div class="row backHero" style="background: url('./img/background.jpeg');">
+            <div class="col-12 backOverlay">              
+              <div class="row contentCenter">
+                <div class="col-6 p-4">
+                  <h1 class="text-white">Tenemos un universo de sabores para ti</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row backHero-md" style="background: url('./img/background-1.jpeg');">
+            <div class="col-12 backOverlay-md">              
+              <div class="row contentCenter-md">
+                <div class="col-6 p-4">
+                  <h2 class="text-white">Inicio</h2>
+                  <p class="text-white text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p class="text-white text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row backHero-md" style="background: url('./img/background-2.jpeg');">
+            <div class="col-12 backOverlay-md">              
+              <div class="row contentCenter-md">
+                <div class="col-6 p-4">
+                  <h2 class="text-white">Nosotros</h2>
+                  <h4 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+                  <p class="text-white text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>          
           <div class="row">
-            <div class="col-6 p-0" style="height: 400px;overflow: hidden;">
-              <img src="./img/background-3.jpeg" style="height:100%;width:100%;" alt="">
+            <div class="col-6 p-0">
+              <img src="./img/background-3.jpeg" width="100%">
             </div>
-            <div class="col-6 p-0" style="height: 400px;overflow: hidden;">
+            <div class="col-6 my-auto p-4 text-purple">
+              <h2>Polvo Galactico</h2>
+              <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="row p-5 contentMision">
+            <div class="col-4">
               <div class="row">
-                <div class="col-12 p-5 mt-5">
-                  <h2 class="text-primary">Polvo Galactico</h2>
-                  <p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                  <p class="text-primary" style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-10 mx-auto text-center">
+                  <i class="fa fa-circle text-white"></i>
+                </div>
+                <div class="col-10 mx-auto mt-2 text-center">
+                  <h2 class="text-white">Mision</h2>
+                  <p class="text text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="col-10 mx-auto text-center">
+                  <i class="fa fa-circle text-white"></i>
+                </div>
+                <div class="col-10 mx-auto mt-2 text-center">
+                  <h2 class="text-white">Vision</h2>
+                  <p class="text text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="col-10 mx-auto text-center">
+                  <i class="fa fa-circle text-white"></i>
+                </div>
+                <div class="col-10 mx-auto mt-2 text-center">
+                  <h2 class="text-white">Objetivo</h2>
+                  <p class="text text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="container-fluid">
-          <div class="row p-2" style="background: #8f7eda;">
-            <div class="col-4 p-4">
-              <div class="row">
-                <div class="col-12 mx-auto  text-center">
-                  <i class="fa fa-circle text-white" style="font-size: 250px;"></i>
-                </div>
-                <div class="col-12 mx-auto text-center text-white">
-                  <h2 class="mt-4">Mision</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-4 p-4">
-              <div class="row">
-                <div class="col-10 mx-auto">
-                  <i class="fa fa-circle text-white text-center" style="font-size: 250px;"></i>
-                </div>
-                <div class="col-12 mx-auto text-center text-white">
-                  <h2 class="mt-4">Vision</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-4 p-4">
-              <div class="row">
-                <div class="col-10 mx-auto">
-                  <i class="fa fa-circle text-white text-center" style="font-size: 250px;"></i>
-                </div>
-                <div class="col-12 mx-auto text-center text-white">
-                  <h2 class="mt-4">Objetivo</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="row backHero" style="background: url('./img/background-4.jpeg');">
+            <div class="col-12 backOverlay">              
+              <div class="row contentCenter mx-auto text-center">
+                <div class="col-6 p-4 mx-auto"><i class="fa fa-play text-white"></i></h1>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="intro-section">
-          <div class="slide-1" style="background-image: url('./img/background-4.jpeg');background-size: 150%;background-repeat: no-repeat;background-position: top;" data-stellar-background-ratio="0.5">
-            <div class="container-fluid content-data-1" style="width:100%;height: 100vh;">
-              <div class="row" style="justify-content: center;">
-                <div class="col-12 p-5" style="z-index: 1000;">
-                  <h1 class="text-white"><i class="fa fa-play"></i></h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cotainer-fluid">
-          <div class="row bg-light p-5">
+          <div class="row pt-5 pb-5 bg-light">
             <div class="col-10 mx-auto">
               <div class="row">
-                <div class="col-6 pr-0 mr-0">
-                  <img src="./img/background-3.jpeg" width="100%" class="rounded pr-0 mr-0" alt="">
+                <div class="col-6 shadow p-0">
+                  <img src="./img/background-5.jpeg" width="100%" class="rounded">
                 </div>
-                <div class="col-6 bg-white rounded ml-0">
-                  
+                <div class="col-6 shadow p-0 bg-white rounded">
+                  <div class="row p-4">
+                    <div class="col-10">
+                      <h4 class="text-purple">Haz tus preguntas por aqui</h4>
+                    </div>
+                    <div class="col-12">
+                      <form class="row">
+                        <div class="col-12 form-group mt-3">
+                          <input type="text" class="form-control input-contact" name="" placeholder="Nombre Completo *">
+                        </div>
+                        <div class="col-12 form-group mt-3">
+                          <input type="email" class="form-control input-contact" name="" placeholder="Correo Electronico *">
+                        </div>
+                        <div class="col-12 form-group mt-3">
+                          <input type="text" class="form-control input-contact" name="" placeholder="Telefono *">
+                        </div>
+                        <div class="col-12 form-group mt-3">
+                          <textarea type="text" class="form-control input-contact" name="" placeholder="Mensaje *"></textarea>
+                        </div>
+                        <div class="col-4 offset-8 mt-3">
+                          <button class="btn text-white form-control btn-purple">Enviar</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="row contentBlog p-4">
+            <div class="col-10 mx-auto text-center">
+              <h2 class="text-white text-uppercase">Nuestro Blog</h2>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-4 p-4">
+                  <div class="row bg-white rounded shadow" style="overflow: hidden;">
+                    <div class="col-12 p-0">
+                      <img src="./img/background.jpeg" width="100%">
+                    </div>
+                    <div class="col-12 p-2">
+                      <label class="text-dark-overlay">23 de marzo 2021</label>
+                      <h5>Lorem ipsum dolor sit amet</h5>
+                      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 p-4">
+                  <div class="row bg-white rounded shadow" style="overflow: hidden;">
+                    <div class="col-12 p-0">
+                      <img src="./img/background.jpeg" width="100%">
+                    </div>
+                    <div class="col-12 p-2">
+                      <label class="text-dark-overlay">23 de marzo 2021</label>
+                      <h5>Lorem ipsum dolor sit amet</h5>
+                      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 p-4">
+                  <div class="row bg-white rounded shadow" style="overflow: hidden;">
+                    <div class="col-12 p-0">
+                      <img src="./img/background.jpeg" width="100%">
+                    </div>
+                    <div class="col-12 p-2">
+                      <label class="text-dark-overlay">23 de marzo 2021</label>
+                      <h5>Lorem ipsum dolor sit amet</h5>
+                      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row contentMision p-4">
+            <div class="col-2 mx-auto">
+              <img src="./img/logo.png" width="100%">
+            </div>
+            <div class="col-11 mx-auto text-center text-white pt-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-4 mx-auto">
+              <div class="row">
+                <div class="col-3 text-center"><i class="fab fa-instagram fa-x2 text-white"></i></div>
+                <div class="col-3 text-center"><i class="fab fa-facebook fa-x2 text-white"></i></div>
+                <div class="col-3 text-center"><i class="fab fa-whatsapp fa-x2 text-white"></i></div>
+                <div class="col-3 text-center"><i class="fab fa-google fa-x2 text-white"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="row bg-dark p-2">
+            <p class="text-white text-center mb-0">Plantilla lista</p>
+          </div>
         </div>
-
-
 
   <!-- JavaScript Bundle with Popper -->
   <script
